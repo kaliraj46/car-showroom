@@ -1,0 +1,140 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Banner Styles */
+.banner {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    background-color: #ff5722;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+    background-color: #e64a19;
+}
+
+/* Cars Section */
+.cars-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cars-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.car-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-item p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.car-item .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-item .btn:hover {
+    background-color: #ff5722;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
